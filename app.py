@@ -23,7 +23,6 @@ def hello_world():
         title_a =request.form.get("title")
         description_a =request.form.get("description")
         todo = Todo(title=title_a, description=description_a)
-    # todo = Todo(title = "1st Title", description = "1st Description")
         db.session.add(todo)
         db.session.commit()
     all_todo = Todo.query.all()
