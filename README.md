@@ -1,5 +1,3 @@
-Here’s a professional and structured `README.md` for your Flask Todo List app:
-
 # Flask Todo List App
 
 A simple and elegant **Todo List Application** built with Flask as the backend framework and TailwindCSS for a modern, responsive UI. This is a beginner-friendly, full-stack project demonstrating CRUD functionality using Flask and SQLite.
